@@ -14,12 +14,13 @@ Dans notre cas, ou plus généralement dans l'informatique, la notion de
 
 RabbitMQ est donc un intermédiaire entre deux systèmes ou composants
 souhaitant communiquer :
+
 - Le Producer : qui émet un message
 - Le Consumer : qui reçoit un message
 
 RabbitMQ est donc un facteur. 
-Plus encore, RabbitMQ c'est l'équivalent de La Poste avec les boîtes à 
-lettre, les plateformes de distribution, les facteurs, ...
+Plus encore, RabbitMQ c'est l'équivalent de La Poste avec les boîtes aux
+lettres, les plateformes de distribution, les facteurs, ...
 
 Ci-après, voici les principaux modes de distribution possible.
 
@@ -33,7 +34,7 @@ Un Producer envoi à N Consumers via 1 file d'attente
 
 #### Round-Robbin
 
-Tour à tour (indépendament de la charger)
+Tour à tour (indépendament de la charge)
 
 #### Prefetch
 
